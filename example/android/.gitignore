@@ -1,0 +1,78 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Android template
+### Android template
+### IDE specific (Android Studio/IntelliJ)
+
+# main gradle stuff
+.gradle/
+build/
+local.properties
+
+# ## intellij folders ##
+
+# cache folder
+.idea/caches
+
+# new words added to dictionary
+.idea/dictionaries
+
+# where .jar files are stored, can be user specific
+.idea/libraries
+
+# AS navigation editor temp files
+.navigation/
+
+# AS captures folder
+captures/
+
+# all proguard files
+Proguard/
+
+# other, custom
+.idea/markdown-navigator
+
+
+
+# ## files ##
+
+# last icon added
+.idea/assetWizardSettings.xml
+
+# contains path to gradle versions, path to modules
+.idea/gradle.xml
+
+# paths to module’s .iml file
+.idea/modules.xml
+.idea/tasks.xml
+
+# last position of the cursor, files open - user specific
+.idea/workspace.xml
+.idea/misc.xml
+
+# files for Dalvik / ART
+*.dex
+
+# built app
+*.apk
+*.ap_
+
+# java classes
+*.class
+
+# Keystore files
+#*.jks
+
+# Google APIs or Firebase
+google-services.json
+
+# other, custom
+*.iml
+*.logs
+/.idea/saveactions_settings.xml
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "removeParentRN": "rm ../node_modules/react -rf && rm ../node_modules/react-native -rf",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-native": "0.57.8"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.1.1",
+    "escape-string-regexp": "^1.0.5",
+    "metro-react-native-babel-preset": "0.51.1"
+  }
+}

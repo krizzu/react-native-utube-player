@@ -1,0 +1,6 @@
+rootProject.name = 'ReactNative_UTube_Example'
+
+include ':app'
+include ':react-native-utube'
+
+project(':react-native-utube').projectDir = new File(rootDir, "../../android")
