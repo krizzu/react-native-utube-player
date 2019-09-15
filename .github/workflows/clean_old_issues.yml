@@ -1,0 +1,18 @@
+name: Check for old issues
+on:
+  schedule:
+    - cron:  '*/15 * * * *'
+jobs:
+  close_old:
+    name: Find and close old issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close old issues
+        with:
+          ghToken: ${{ secrets.GITHUB_TOKEN }}
+          repoOwner: krizzu
+          repoName: react-native-utube-player
+          daysOld: 60
+        uses: krizzu/gh_actions/close_old_issues@v1
+
+
