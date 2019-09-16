@@ -1,7 +1,7 @@
 name: Check for old issues
 on:
   schedule:
-    - cron:  '*/10 * * * *'
+    - cron:  '*/3 * * * *'
 jobs:
   close_old:
     name: Find and close old issues
@@ -13,6 +13,6 @@ jobs:
           repoOwner: krizzu
           repoName: react-native-utube-player
           daysOld: 60
-        uses: krizzu/gh_actions/close_old_issues@v1
+        uses: krizzu/gh_actions/close_old_issues@master
 
 
